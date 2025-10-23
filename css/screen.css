@@ -48,11 +48,11 @@ p {
 }
 
 a {
-  color: #007eff;
+  color: #1b3148;
 }
 
 a:visited {
-  color: #65b1ff;
+  color: #3b6fa7;
 }
 
 a.btn {
@@ -72,8 +72,9 @@ a.btn:hover {
 
 header {
   height: 430px;
-  background: #cf0004 url(../images/banner_1200.png) no-repeat center bottom;
+  background: #f9c8c6 url(../images/banner_1200.png) no-repeat left bottom;
   position: relative;
+  padding-top: 50px;
 }
 
 header a.logo {
@@ -95,14 +96,14 @@ header a.logo span {
 header div.hero {
   position: absolute;
   width: 42%;
-  top: 130px;
-  left: 55%;
+  top: 190px;
+  left: 42%;
 }
 
 header div.hero h1 {
   line-height: 1em;
   margin: 0 0 30px 0;
-  color: #fff;
+  color: #1b3148;
 }
 
 /* Section All */
@@ -146,72 +147,72 @@ section.main aside h3 a:hover {
   text-decoration: underline;
 }
 
-section.main aside .content.trending {
+section.main aside .content.cooking {
   background-image: url(../images/icon_chef_hat.svg);
 }
 
-section.main aside .content.find-it {
+section.main aside .content.fitness {
   background-image: url(../images/icon_dumbbell.svg);
 }
 
-section.main aside .content.tools {
+section.main aside .content.nails {
   background-image: url(../images/icon_nail_polish.svg);
 }
 
-/* Section Atmosphere */
+/* Section cake */
 
-section.atmosphere {
-  background-color: #cc6633;
+section.cake {
+  background-color: #1b3148;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
 }
 
-section.atmosphere article {
+section.cake article {
   padding: 0 20px 0 515px;
   background: url(../images/photo_cake.jpg) no-repeat 0 0;
   background-size: 320px;
   min-height: 220px;
 }
 
-/* Section How-To */
+/* Section other-hobbies */
 
-section.how-to {
-  background-color: #eee9d9;
+section.other-hobbies {
+  background-color: rgba(249, 200, 198, 0.6);
   position: relative;
 }
 
-section.how-to aside {
+section.other-hobbies aside {
   width: 30%;
   float: left;
   margin-right: 10px;
 }
 
-section.how-to aside .content {
+section.other-hobbies aside .content {
   padding: 30px 30px 20px 0;
 }
 
-section.how-to aside .content img {
+section.other-hobbies aside .content img {
   display: block;
   margin-bottom: 15px;
   width: 70%;
 }
 
-section.how-to aside .content h4 {
+section.other-hobbies aside .content h4 {
   margin-bottom: 0;
 }
 
-section.how-to aside .content p {
+section.other-hobbies aside .content p {
   margin-bottom: 0.5em;
 }
 
-section.how-to aside .content a {
+section.other-hobbies aside .content a {
   display: inline-block;
-  color: #cc6633;
+  color: #1b3148;
   font-weight: 700;
 }
 
-section.how-to blockquote {
+section.other-hobbies blockquote {
   margin: 0;
   width: 32%;
   color: #444;
@@ -221,16 +222,16 @@ section.how-to blockquote {
   right: 4%;
 }
 
-section.how-to blockquote p {
+section.other-hobbies blockquote p {
   margin: 30px 30px 20px 50px;
 }
 
-section.how-to blockquote p.quote {
+section.other-hobbies blockquote p.quote {
   font-style: italic;
   font-size: 1.2em;
 }
 
-section.how-to blockquote p.credit {
+section.other-hobbies blockquote p.credit {
   color: #777;
   font-size: 0.9em;
   margin-top: 0;
@@ -239,9 +240,9 @@ section.how-to blockquote p.credit {
   position: relative;
 }
 
-section.how-to blockquote::before {
+section.other-hobbies blockquote::before {
   content: "\201c";
-  color: #d2bd65;
+  color: rgba(249, 200, 198, 0.6);
   position: absolute;
   top: 10px;
   left: 8px;
@@ -249,12 +250,12 @@ section.how-to blockquote::before {
   font-family: serif;
 }
 
-section.how-to blockquote p.quote::after {
+section.other-hobbies blockquote p.quote::after {
   content: "\201d";
   font-family: serif;
 }
 
-section.how-to blockquote p.credit::before {
+section.other-hobbies blockquote p.credit::before {
   content: "\2014";
   position: absolute;
   top: -1px;
@@ -264,7 +265,7 @@ section.how-to blockquote p.credit::before {
 /* Navigation */
 
 nav {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(255, 255, 255, 0.65);
   position: absolute;
   top: 0;
   left: 0;
@@ -285,7 +286,7 @@ nav ul {
 }
 
 nav ul li:hover {
-  background-color: #2b0306;
+  background-color: #ff8c88;
 }
 
 nav ul li:hover > ul {
@@ -294,7 +295,7 @@ nav ul li:hover > ul {
 
 nav ul li a {
   display: inline-block;
-  color: #fff;
+  color: #1b3148;
   padding: 10px 20px;
   text-decoration: none;
   width: 125px;
@@ -302,17 +303,17 @@ nav ul li a {
 }
 
 nav ul li a:visited {
-  color: #fff;
+  color: #1b3148;
 }
 
 nav ul li a:hover {
-  background-color: #6d0911;
+  background-color: rgba(255, 255, 255, 0.65);
 }
 
 nav ul ul {
   position: absolute;
   top: 100%;
-  background-color: #2b0306;
+  background-color: #ff8c88;
   display: none;
 }
 
@@ -349,13 +350,13 @@ nav a[aria-haspopup="true"]::after {
   right: 15px;
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
-  border-left: 4px solid #fff;
+  border-left: 4px solid #1b3148;
 }
 
 nav > ul > li > a[aria-haspopup="true"]::after {
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-top: 4px solid #fff;
+  border-top: 4px solid #1b3148;
   left: 20px;
   right: auto;
   bottom: 6px;
@@ -399,10 +400,10 @@ footer a:hover {
   }
 
   header div.hero h1 {
-    margin: 20px;
+    margin: 20px 20px 20px 0;
   }
 
-  section.atmosphere article {
+  section.cake article {
     padding-left: 400px;
     background-size: 375px auto;
   }
@@ -423,17 +424,17 @@ footer a:hover {
     left: 48%;
   }
 
-  section.atmosphere article {
+  section.cake article {
     padding-left: 325px;
     background-size: 300px auto;
   }
 
-  section.how-to blockquote p.quote {
+  section.other-hobbies blockquote p.quote {
     font-size: 1.1em;
     line-height: 1.2em;
   }
 
-  section.how-to blockquote p.credit {
+  section.other-hobbies blockquote p.credit {
     font-size: 0.85em;
   }
 }
@@ -475,12 +476,12 @@ footer a:hover {
     padding-top: 60px;
   }
 
-  section.how-to aside div.content img {
+  section.other-hobbies aside div.content img {
     width: 85px;
   }
 
   nav {
-    padding-top: 80px;
+    padding-left: 150px;
   }
 
   nav > ul {
@@ -501,7 +502,7 @@ footer a:hover {
   header {
     height: 160px;
     background-image: url(../images/banner_625.png);
-    background-position: left top;
+    background-position: left bottom;
   }
   header a.logo {
     width: 100%;
@@ -515,7 +516,7 @@ footer a:hover {
   header div.hero {
     width: 300px;
     top: 65px;
-    left: 130px;
+    left: 160px;
   }
   header div.hero h1 {
     margin-bottom: 10px;
@@ -534,27 +535,27 @@ footer a:hover {
     background-position: 20px 5px;
   }
 
-  section.atmosphere article {
-    padding: 160px 20px 0px 0px;
+  section.cake article {
+    padding: 240px 20px 0px 0px;
     background-size: 300px auto;
     min-height: initial;
   }
 
-  section.how-to aside {
+  section.other-hobbies aside {
     width: 100%;
     float: none;
     margin: 0;
     position: relative;
   }
 
-  section.how-to aside div.content {
+  section.other-hobbies aside div.content {
     padding: 20px 20px 20px 150px;
   }
 
-  section.how-to aside div.content p {
+  section.other-hobbies aside div.content p {
     font-size: 0.9em;
   }
-  section.how-to aside div.content img {
+  section.other-hobbies aside div.content img {
     display: inline-block;
     width: 125px;
     position: absolute;
@@ -562,14 +563,14 @@ footer a:hover {
     left: 0;
   }
 
-  section.how-to blockquote {
+  section.other-hobbies blockquote {
     margin: 0 20px 0 40px;
     width: 90%;
     padding: 1px 0 20px 0;
     position: relative;
   }
 
-  section.how-to blockquote p.credit {
+  section.other-hobbies blockquote p.credit {
     margin-bottom: 0;
   }
 
@@ -577,7 +578,7 @@ footer a:hover {
     position: static;
     width: auto;
     padding: 20px 15px;
-    background-color: #4b0a0c;
+    background-color: #ff8c88;
   }
 
   nav ul,
@@ -659,15 +660,15 @@ footer a:hover {
     display: none;
   }
 
-  section.how-to aside div.content {
+  section.other-hobbies aside div.content {
     padding: 140px 20px 20px 0px;
   }
-  section.how-to aside div.content img {
+  section.other-hobbies aside div.content img {
     width: auto;
     height: 100px;
     top: 30px;
   }
-  section.how-to blockquote {
+  section.other-hobbies blockquote {
     margin: 10px 40px 0 20px;
   }
 
