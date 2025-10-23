@@ -63,7 +63,7 @@ header {
 }
 
 header::after {
-  content: url(../images/banner_1300_print.jpg);
+  content: url(../images/banner_1300_print.png);
   width: 90%;
 }
 
@@ -73,11 +73,12 @@ header a.logo {
   height: 60px;
   position: absolute;
   top: 20px;
-  left: 20px;
+  left: 235px;
+  content: url(../images/linkedin_logo_print.svg);
 }
 
 header a.logo::before {
-  content: url(../images/logo_print.svg);
+  content: url(../images/linkedin_logo_print.svg);
 }
 
 header a.logo::after {
@@ -95,7 +96,7 @@ header div.hero {
   width: 75%;
   position: absolute;
   top: 110px;
-  left: 20px;
+  left: 250px;
 }
 
 header div.hero a::after {
@@ -129,15 +130,15 @@ section.main aside div.content h3 a::after {
 }
 
 section.main aside div.content.trending::before {
-  content: url(../images/icon_star_print.svg);
+  content: url(../images/icon_chef_hat_print.svg);
 }
 
 section.main aside div.content.find-it::before {
-  content: url(../images/icon_marker_print.svg);
+  content: url(../images/icon_dumbbell_pring.svg);
 }
 
 section.main aside div.content.tools::before {
-  content: url(../images/icon_gear_print.svg);
+  content: url(../images/icon_nail_polish_print.svg);
 }
 
 section.atmosphere {
@@ -148,7 +149,7 @@ section.atmosphere {
 }
 
 section.atmosphere::before {
-  content: url(../images/photo_lounge_print.jpg);
+  content: url(../images/photo_cake_print.jpg);
 }
 section.atmosphere article {
   width: 40%;
@@ -174,11 +175,11 @@ section.how-to div.content img {
 }
 
 section.how-to aside:nth-child(1) div.content::before {
-  content: url(../images/photo_seating_print.jpg);
+  content: url(../images/photo_fitness_print.jpg);
 }
 
 section.how-to aside:nth-child(2) div.content::before {
-  content: url(../images/photo_lighting_print.jpg);
+  content: url(../images/photo_nail_print.jpg);
 }
 
 section.how-to blockquote {
@@ -230,7 +231,7 @@ footer {
 }
 
 footer::after {
-  content: url(../images/qr_codifydesign.png);
+  content: url(../images/qr_linkedin_profile.jpg);
   position: absolute;
   top: 20px;
   left: 0;
