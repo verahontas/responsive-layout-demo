@@ -129,15 +129,15 @@ section.main aside div.content h3 a::after {
   font-weight: normal;
 }
 
-section.main aside div.content.trending::before {
+section.main aside div.content.cooking::before {
   content: url(../images/icon_chef_hat_print.svg);
 }
 
-section.main aside div.content.find-it::before {
-  content: url(../images/icon_dumbbell_pring.svg);
+section.main aside div.content.fitness::before {
+  content: url(../images/icon_dumbbell_print.svg);
 }
 
-section.main aside div.content.tools::before {
+section.main aside div.content.nails::before {
   content: url(../images/icon_nail_polish_print.svg);
 }
 
